@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Define um contêiner para todo o conteúdo */
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Define a aparência do cabeçalho do site */
+  .topo_site {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Define a aparência do menu */
+  #menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Define a aparência dos itens do menu */
+  #menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #menu li {
+    margin-right: 20px;
+  }
+  
+  #menu li:last-child {
+    margin-right: 0;
+  }
+  
+  #menu li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  /* Define a aparência do hexágono no menu */
+  .hexagono {
+    width: 200px;
+    height: 115.47px;
+    background-color: #FFCC00;
+    position: relative;
+    margin: 50px auto;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  }
+  
+  .hexagono:before {
+    content: "DD";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+  }
+  
+  /* Define a aparência do conteúdo principal */
+  .conteudo {
+    padding: 20px;
+  }
+  
+  /* Define a aparência da seção de apresentação */
+  #apresentação {
+    margin-bottom: 50px;
+  }
+  
+  #apresentação h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  #apresentação p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  #apresentação h4 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Define a aparência da seção de método de trabalho */
+  #metodo {
+    margin-bottom: 50px;
+  }
+  
+  #metodo h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  #metodo p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  #metodo img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  /* Define a aparência da seção de habilidades */
+  #habilidades {
+    margin-bottom: 50px;
+  }
+  
+  #habilidades h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  #habilidades h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
